@@ -1,7 +1,7 @@
 {
   "name": "monte_carlo",
   "version": "0.0.0",
-  "description": "This is second class project assignment for CHE 447, Univerisity of Rochester",
+  "description": "Monte Carlo Simulation Assignment",
   "homepage": "",
   "author": {
     "name": "Shikhar Rai",
@@ -16,6 +16,7 @@
     ""
   ],
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "^5.4.0",
     "prettier": "^1.11.1",
     "husky": "^0.14.3",
@@ -39,22 +40,26 @@
     ]
   },
   "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
     "env": {
       "jest": true,
       "node": true
     },
+    "plugins": [
+      "prettier"
+    ],
     "rules": {
       "prettier/prettier": [
-        "error",
         {
           "singleQuote": true,
           "printWidth": 90
-        }
+        },
+        "error"
       ]
-    },
-    "plugins": [
-      "prettier"
-    ]
+    }
   },
   "scripts": {
     "test": "jest"
@@ -63,10 +68,5 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "license": "MIT",
-  "dependencies": {
-    "canvas": "^2.0.1",
-    "mathjs": "^5.2.3",
-    "plotly.js": "^1.42.2"
-  }
+  "license": "MIT"
 }
