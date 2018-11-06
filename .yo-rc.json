@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Shikhar Rai",
+      "authorEmail": "shikhar.rai@rochester.edu",
+      "authorUrl": ""
+    }
+  }
+}
