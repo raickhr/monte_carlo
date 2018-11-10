@@ -1,14 +1,12 @@
 language: node_js
 node_js:
-  - v10
-  - v8
-  - v6
-  - v4
-  
-install:
+  - "iojs"
+  - "7
+
+before_script:
 - npm install canvas
 
 script:
- - npm test monteCarlo.test.js
+ - npm test
 
  after_success: coveralls
