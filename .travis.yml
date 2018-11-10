@@ -5,7 +5,7 @@ node_js:
   - v6
   - v4
 
-# Command to install dependencies.
+// Command to install dependencies.
 install:
 - npm install canvas
 
