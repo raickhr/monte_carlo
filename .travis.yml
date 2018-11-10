@@ -4,3 +4,13 @@ node_js:
   - v8
   - v6
   - v4
+
+  # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+install:
+# pip install -U tox-travis
+- npm install canvas
+
+script:
+ - npm test monteCarlo.test.js
+
+ after_success: coveralls
