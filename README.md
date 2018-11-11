@@ -34,7 +34,14 @@ The final part is the maximum number iterations.
   
 30  
   
-1000  
+1000 
+
+## Running the code
+
+From the folder monte_carlo/lib write the command 
+``
+node server.js
+``
 
 ## Viewing the output
 
