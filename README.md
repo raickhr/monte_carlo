@@ -18,43 +18,29 @@ The final part is the maximum number iterations.
 
 ## Example of input 
 
-(10, 12)
-(28, 12)
-(10, 28)
-(28, 28)
-(37, 19)
-
-0 1 1 1 0
-0 0 1 0 0
-1 1 0 0 0
-0 0 0 0 0
-0 1 0 0 0
-
-1
-
-30
-
-1000
+(10, 12)  
+(28, 12)  
+(10, 28)  
+(28, 28)  
+(37, 19)  
+  
+0 1 1 1 0  
+0 0 1 0 0  
+1 1 0 0 0  
+0 0 0 0 0  
+0 1 0 0 0  
+  
+1  
+  
+30  
+  
+1000  
 
 ## Viewing the output
 
 node server.js in the monte_carlo/lib/ folder gives starts the simulation. The output is displayed in the web browser at the address localhost:3000
 
 
-
-## Installation
-
-```sh
-$ npm install --save monte_carlo
-```
-
-## Usage
-
-```js
-const monteCarlo = require('monte_carlo');
-
-monteCarlo('Rainbow');
-```
 ## License
 
 MIT © [Shikhar Rai]()
