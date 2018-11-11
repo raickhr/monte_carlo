@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/raickhr/monte_carlo/badge.svg?branch=master)](https://coveralls.io/github/raickhr/monte_carlo?branch=master)
+
 # monte_carlo [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > This is second class project assignment for CHE 447, Univerisity of Rochester
 
